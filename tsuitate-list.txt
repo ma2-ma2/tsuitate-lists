@@ -1,0 +1,8 @@
+! ツイタテ独自の追加リスト（AdGuard 形式）
+! AdGuard DNS filter に入っていない、日本でよく見る広告の配信元だけを足す。
+! 足すときは、AdGuard のリストに無いこと・広告専用のドメインであることを確かめ、日付を書く
+!
+! 2026-11-17：AdGuard DNS filter（2026-11-15 取得）に無いことを確認
+||fluct.jp^
+||impact-ad.jp^
+||popin.cc^
