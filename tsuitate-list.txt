@@ -6,3 +6,10 @@
 ||fluct.jp^
 ||impact-ad.jp^
 ||popin.cc^
+!
+! 2026-11-17：Safari 拡張で隠すルール（ビルド 23 から読む。それより前のアプリは「#」で始まる行を読み飛ばす）。
+! otakumix.doorblog.jp（livedoor ブログ）で、DNS のブロックが効かなかったときに出た広告の枠。
+! どれも広告の配信会社が作る枠の ID の頭（Geniee・ad-stir・bnc）で、記事には使われない
+##[id^="gladIL_"]
+##[id^="AdstirCB"]
+##div[id^="bnc_ad_"]
