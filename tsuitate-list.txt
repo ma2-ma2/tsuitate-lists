@@ -25,3 +25,7 @@
 2ch-c.net##div:has(> a[href^="https://al.fanza.co.jp/"])
 ! 2026-11-17：DLsite の宣伝部品（ブログパーツ）。www.dlsite.com/js/blogparts.js が作る枠で、名前の頭はどのサイトでも同じ。www.dlsite.com は DLsite 本体なので DNS では止めない
 ##[id^="DLsite_blog_parts_"]
+! 2026-11-17：DMM（FANZA）のアフィリエイトのウィジェット。widget-view.dmm.com は DNS で止めているが、placement.js に保存期間の指定がなく
+! Safari が古いものを使い続けて帯（「PR」・順位つき）が出たため、外側の ins と中の iframe も隠す。どちらも DMM の宣伝専用の部品
+##ins.dmm-widget-placement
+##iframe[src^="https://widget-view.dmm.com/"]
