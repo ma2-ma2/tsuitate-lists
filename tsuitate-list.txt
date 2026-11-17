@@ -6,6 +6,8 @@
 ||fluct.jp^
 ||impact-ad.jp^
 ||popin.cc^
+! 2026-11-17：DLsite・FANZA のアフィリエイト広告を配るスクリプト（2ch-c.net の「PR」の帯）。AdGuard のリストに無いことを確認
+||d-load.org^
 !
 ! 2026-11-17：Safari 拡張で隠すルール（ビルド 23 から読む。それより前のアプリは「#」で始まる行を読み飛ばす）。
 ! otakumix.doorblog.jp（livedoor ブログ）で、DNS のブロックが効かなかったときに出た広告の枠。
@@ -13,3 +15,7 @@
 ##[id^="gladIL_"]
 ##[id^="AdstirCB"]
 ##div[id^="bnc_ad_"]
+! 2026-11-17：matomeantena.com で出た広告。RISE の全画面広告（画面全体を暗くする）、Geniee の浮いている広告、MicroAd の下に貼り付く広告
+##.rise-interstitial-wrapper
+##[id^="glssp_wipe_container_"]
+##.microad-overlay-footer
