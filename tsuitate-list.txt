@@ -19,3 +19,7 @@
 ##.rise-interstitial-wrapper
 ##[id^="glssp_wipe_container_"]
 ##.microad-overlay-footer
+! 2026-11-17：2ch-c.net（しぃアンテナ）の FANZA・DLsite のアフィリエイトの帯（「PR」）。中のリンクはアフィリエイトだけで、記事へのリンクは含まない
+2ch-c.net##.mid_ad
+2ch-c.net###mid_ad_toggle
+2ch-c.net##div:has(> a[href^="https://al.fanza.co.jp/"])
