@@ -23,6 +23,13 @@
 2ch-c.net##.mid_ad
 2ch-c.net###mid_ad_toggle
 2ch-c.net##div:has(> a[href^="https://al.fanza.co.jp/"])
+! 2026-11-20：しぃアンテナは 2ch-c.net から 5ch-c.net に移った。上の 2ch-c.net の 3 件を 5ch-c.net にも引き継ぐ（いまのページには無いが、出たときのため）
+5ch-c.net##.mid_ad
+5ch-c.net###mid_ad_toggle
+5ch-c.net##div:has(> a[href^="https://al.fanza.co.jp/"])
+! 2026-11-20：5ch-c.net の広告の枠。中身（src のない iframe）は止まるが、下に固定の枠（高さ 100・半透明の黒）と、上の 300×250 の空白が残っていた
+5ch-c.net##div[class*="bottom-[56px]"][class*="h-[100px]"]:has(iframe)
+5ch-c.net##div.mb-0:has(> div.flex-center > iframe[width="300"][height="250"])
 ! 2026-11-17：DLsite の宣伝部品（ブログパーツ）。www.dlsite.com/js/blogparts.js が作る枠で、名前の頭はどのサイトでも同じ。www.dlsite.com は DLsite 本体なので DNS では止めない
 ##[id^="DLsite_blog_parts_"]
 ! 2026-11-17：DMM（FANZA）のアフィリエイトのウィジェット。widget-view.dmm.com は DNS で止めているが、placement.js に保存期間の指定がなく
